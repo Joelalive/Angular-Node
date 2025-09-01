@@ -1,0 +1,11 @@
+:host {
+    display: block;
+    margin-top: 1rem;
+}
+
+.info-text {
+    font-style: italic;
+    color: grey;
+    text-align: center;
+    margin-top: 1rem;
+}
