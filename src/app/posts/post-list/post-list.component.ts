@@ -16,7 +16,7 @@ private postSubscription!: Subscription;
 constructor(private postService: PostService) {}
 
 ngOnInit() {
-  this.posts = this.postService.getPosts();
+  this.postService.getPosts();
   this.getPosts();
 }
 
